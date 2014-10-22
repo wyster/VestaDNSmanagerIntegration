@@ -1,6 +1,6 @@
 Install
 ==========================
-Unpack the module in the root directory of ```vestacp`` 
+Unpack the module in the root directory of ```vestacp```
 Open web/add/dns/index.php, find the line ```~116```:
 ```php
 $_SESSION['ok_msg'] = __('DNS_RECORD_CREATED_OK',$_POST[v_rec],$_POST[v_domain]);
