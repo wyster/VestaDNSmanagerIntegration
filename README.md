@@ -17,4 +17,4 @@ Paste after:
 ```php
 require $_SERVER['DOCUMENT_ROOT'] . '/web/dnsmanager/delete.php';
 ```
-Change the configuration ```web/dnsmanager/config.php```
+Change the configuration ```web/dnsmanager/config.php```, change ```enabled``` in ```true```

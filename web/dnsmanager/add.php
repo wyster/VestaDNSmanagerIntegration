@@ -3,7 +3,7 @@
  * @author Ilya Zelenin <wyster@make.im>
  */
 $configDnsManager = require __DIR__ . '/config.php';
-if ($configDnsManager['enable']) {
+if ($configDnsManager['enabled']) {
     $dnsManagerParams = array(
         'sok' => 'yes',
         'out' => 'json',
