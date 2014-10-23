@@ -1,6 +1,6 @@
 Requirements
 ==========================
-This library requires PHP extension ```php_curl``
+This library requires PHP extension ```php_curl```
 
 Install
 ==========================
@@ -8,9 +8,9 @@ This guide actual for [Vesta Control Panel](http://vestacp.com) version 0.9.8-10
 
 Unpack ```web``` folder in the root directory of ```vestacp```
 
-Open ```web/add/dns/index.php```,
+Open ```web/add/dns/index.php```
 
-Find the line ```~40```
+Find the line ```~40```:
 ```php
 exec (VESTA_CMD."v-add-dns-domain ".$user." ".$v_domain." ".$v_ip." ".$v_ns1." ".$v_ns2." ".$v_ns3." ".$v_ns4." no", $output, $return_var);
 ```
