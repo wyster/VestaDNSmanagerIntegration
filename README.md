@@ -1,5 +1,6 @@
 Install
 ==========================
+This guide actual for Vesta version 0.9.8-10
 Unpack the module in the root directory of ```vestacp```
 Open web/add/dns/index.php, find the line ```~116```:
 ```php
@@ -17,4 +18,10 @@ Paste after:
 ```php
 require $_SERVER['DOCUMENT_ROOT'] . '/web/dnsmanager/delete.php';
 ```
-Change the configuration ```web/dnsmanager/config.php```, change ```enabled``` in ```true```
+In the configuration ```web/dnsmanager/config.ini```, change ```enabled``` to ```1```, and set ```master```, ```dns[]``` 
+
+Example using many dns:
+```ini
+dns[] = example.com,login,password
+dns[] = example2.com,login,password
+```
