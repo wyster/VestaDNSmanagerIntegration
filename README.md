@@ -1,8 +1,8 @@
 Install
 ==========================
-This guide actual for Vesta version 0.9.8-10
+This guide actual for [Vesta Control Panel](http://vestacp.com) version 0.9.8-10
 
-Unpack ```web`` folder in the root directory of ```vestacp```
+Unpack ```web``` folder in the root directory of ```vestacp```
 
 Open ```web/add/dns/index.php```, find the line ```~116```:
 ```php
