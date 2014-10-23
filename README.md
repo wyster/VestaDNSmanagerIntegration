@@ -2,7 +2,7 @@ Install
 ==========================
 This guide actual for Vesta version 0.9.8-10
 
-Unpack the module in the root directory of ```vestacp```
+Unpack ```web`` folder in the root directory of ```vestacp```
 
 Open ```web/add/dns/index.php```, find the line ```~116```:
 ```php
@@ -26,5 +26,4 @@ Example using many dns:
 ```ini
 dns[] = example.com,login,password
 dns[] = example2.com,login,password
-etc...
 ```
